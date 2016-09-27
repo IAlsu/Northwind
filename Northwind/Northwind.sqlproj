@@ -118,5 +118,7 @@
     <None Include="SampleScripts\Task2.1.2.sql" />
     <None Include="SampleScripts\Task2.2.1.sql" />
     <None Include="SampleScripts\Task2.2.2.sql" />
+    <None Include="SampleScripts\Task2.2.3.sql" />
+    <None Include="SampleScripts\Task2.2.4.sql" />
   </ItemGroup>
 </Project>
