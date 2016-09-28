@@ -4,4 +4,3 @@ where Year(o.OrderDate) ='1998'
 group by o.EmployeeID, o.CustomerID
 /*order by o.EmployeeID -- sorting for visible results*/
 
-

@@ -120,5 +120,12 @@
     <None Include="SampleScripts\Task2.2.2.sql" />
     <None Include="SampleScripts\Task2.2.3.sql" />
     <None Include="SampleScripts\Task2.2.4.sql" />
+    <None Include="SampleScripts\Task2.2.5.sql" />
+    <None Include="SampleScripts\Task2.2.6.sql" />
+    <None Include="SampleScripts\Task2.3.1.sql" />
+    <None Include="SampleScripts\Task2.3.2.sql" />
+    <None Include="SampleScripts\Task2.4.1.sql" />
+    <None Include="SampleScripts\Task2.4.2.sql" />
+    <None Include="SampleScripts\Task2.4.3.sql" />
   </ItemGroup>
 </Project>

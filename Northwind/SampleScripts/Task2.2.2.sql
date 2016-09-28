@@ -1,9 +1,8 @@
-﻿
-/*select 
-	(select e.EmployeeID, .LastName+e.FirstName as name from Employees as e) as Seller, 
-	count(o.EmployeeID) as Amount
+﻿select o.EmployeeID as Seller, 
+	(select e.FirstName + ' ' + e.LastName
+	 from Employees as e
+	 where EmployeeID = o.EmployeeID) as SellerName,
+	COUNT(*) as Amount
 from Orders as o
-where o.EmployeeID is not null
-group by o.EmployeeID 
-order by Amount desc*/
-
+group by o.EmployeeID
+order by Amount desc;
